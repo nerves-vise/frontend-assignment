@@ -70,6 +70,7 @@ const pendingInvites = [
     expiresIn: 30 // seconds
   }
 ];
+```
 
 ## ✅ Bonus Features (Optional)
 
