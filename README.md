@@ -17,6 +17,7 @@ Use any modern frontend stack. Backend is **not required** — all state is loca
 - Filter by role, team, and status
 - Search by name/email
 - Remove a member (with confirmation modal)
+- Sort by name, team, or status (ascending/descending)
 
 ### 2. ➕ Add/Edit Member Form
 - Modal for adding or editing a member
@@ -25,7 +26,7 @@ Use any modern frontend stack. Backend is **not required** — all state is loca
 
 ### 3. ✉️ **Pending Invitations** (⚠️ Special behavior)
 - Simulate a list of pending invites (name, email, role, team)
-- Each invite auto-expires after **30 seconds**
+- Each invite auto-expires after **60 seconds**
 - Show countdown timer per invite
 - Buttons:
   - ✅ Approve → moves to team list
@@ -34,6 +35,11 @@ Use any modern frontend stack. Backend is **not required** — all state is loca
 
 > This is intentionally tricky to test how you handle timers, state sync, and cleanup logic.
 
+### 4. 🔄 Local Persistence (Required)
+
+- Persist all data (members, pendingInvites) in localStorage
+- On page reload, restore state correctly (including countdown handling)
+  
 ---
 
 ## 🧰 Tech Stack
