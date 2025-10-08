@@ -81,7 +81,7 @@ const pendingInvites = [
 - Animations or transitions
 - Sorting by name or team
 
-## 🧪 Evaluation Criteria
+## ✅ Required Deliverables
 
 | Area             | Details                                 |
 | ---------------- | --------------------------------------- |
@@ -89,6 +89,7 @@ const pendingInvites = [
 | Component design | Reusable and well-structured components |
 | State handling   | Clear separation and updates            |
 | UI/UX            | Intuitive, responsive, consistent       |
+| Unit test        | ✅ At least basic test coverage using Jest + React Testing Library    |
 | Code quality     | Clean, maintainable, and modular        |
 | Bonus            | Persistence, testing, extra UX polish   |
 
